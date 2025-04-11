@@ -1,0 +1,26 @@
+spec:
+  desired_state: online
+  description: STT AI assignment 9
+  conda: ''
+  source: ''
+  functions:
+  - url: Data_prep.py
+    name: data-prep
+    kind: job
+    image: mlrun/mlrun
+    handler: breast_cancer_generator
+  - url: Trainer.py
+    name: trainer
+    kind: job
+    image: mlrun/mlrun
+    handler: train
+  - url: serving.py
+    name: serving
+    kind: serving
+    image: mlrun/mlrun
+  workflows:
+  - path: workflow.py
+    name: main
+kind: project
+metadata:
+  name: stt9-jovyan

@@ -1,0 +1,8 @@
+metadata:
+  name: stt9-jovyan
+spec:
+  desired_state: online
+  description: STT AI assignment 9
+  source: ''
+  conda: ''
+kind: project
