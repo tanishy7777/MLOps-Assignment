@@ -1,6 +1,6 @@
 ## CI/DD for machine learning using MLRun
 
-This code is part of the assignment for the course "Software Tools and Techniques for AI" @IITGN.
+This code is part of the assignment for the course "_Software Tools and Techniques for AI_" @IITGN.
 
 [Assignment Report](https://docs.google.com/document/d/1y7NeY8e8ibu1PvV-tvC4s5Q2ooxOd4X_gh6VaiwQ_cg/edit?usp=sharing) showing all the steps from installation of MLRun on arch linux(Endeavor OS) to deploying to docker hub.
 It also includes debugging steps for some of the errors that were encountered.
